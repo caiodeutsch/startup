@@ -9,9 +9,6 @@ def create_conn(secret_name):
     user = get_secret_value_response['username']
     password = get_secret_value_response['password']
     server = get_secret_value_response['host']
-    server = 'database-1.c2dvu2fkb6if.us-east-1.rds.amazonaws.com'
-    #database = 'startup'
-    #engine = create_engine(f'mysql+pymysql://{user}:{password}@{server}/{database}?charset=utf8', encoding='utf-8')
     engine = create_engine(f'mysql+pymysql://{user}:{password}@{server}?charset=utf8', encoding='utf-8')
     return engine
 
