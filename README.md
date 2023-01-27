@@ -34,7 +34,6 @@ nohup python3.10 run.py &
 ```
 
 ### Instructions for Seeder
-* Run the seeder
 ```shell script	
   python db_seed.py
 ```
