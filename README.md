@@ -15,7 +15,19 @@
   terraform apply
 ```
 
-### Instructions for Python Requirements
+### Starting the application
+* the userdata.tpl will start the application, no need to run the script bellow
+```shell script
+#!/bin/bash
+apt-get update -y
+apt-get install -y python3-pip
+git clone https://github.com/caiodeutsch/startup.git
+cd startup/
+pip3.10 install -r requirements.txt
+nohup python3.10 run.py &
+```
+
+### Instructions for running locally
 ```shell script
   pip install -r requirements.txt
   pip install pymysql
