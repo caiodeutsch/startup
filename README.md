@@ -10,12 +10,25 @@
 * Install Terraform
 * Run terraform apply
 ```shell script
-	cd terraform
+  cd terraform
   terraform plan
-	terraform apply
+  terraform apply
 ```
 
-### Instructions for Application
+### Instructions for Python Requirements
+* Run the seeder
+```shell script
+  pip install -r requirements.txt
+  pip install pymysql
+```
+
+### Instructions for Seeder
+* Run the seeder
+```shell script	
+  python db_seed.py
+```
+
+### Instructions for running the Flask Application
 * Start the flask application
 ```shell script	
   pip install -r requirements.txt
