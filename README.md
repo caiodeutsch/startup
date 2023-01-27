@@ -8,7 +8,7 @@
 * Create and IAM User with admin permissions
 * Install and configure AWS-CLI with credentials from user created above
 * Install Terraform
-* Run terraform apply
+* Run terraform commands below
 ```shell script
   cd terraform
   terraform plan
