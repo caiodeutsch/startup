@@ -16,7 +16,6 @@
 ```
 
 ### Instructions for Python Requirements
-* Run the seeder
 ```shell script
   pip install -r requirements.txt
   pip install pymysql
