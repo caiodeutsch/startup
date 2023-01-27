@@ -24,6 +24,7 @@ apt-get install -y python3-pip
 git clone https://github.com/caiodeutsch/startup.git
 cd startup/
 pip3.10 install -r requirements.txt
+python3.10 db_seed.py # TODO: include check schema
 nohup python3.10 run.py &
 ```
 
@@ -33,8 +34,7 @@ nohup python3.10 run.py &
   python run.py
 ```
 
-### Instructions for Seeder
+### Instructions for running tests
 ```shell script	
-  python db_seed.py
+  python -m pytest
 ```
-
