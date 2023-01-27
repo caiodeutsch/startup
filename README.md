@@ -30,7 +30,5 @@
 ### Instructions for running the Flask Application
 * Start the flask application
 ```shell script	
-  pip install -r requirements.txt
-  pip install pymysql
   python run.py
 ```
