@@ -27,10 +27,10 @@ pip3.10 install -r requirements.txt
 nohup python3.10 run.py &
 ```
 
-### Instructions for running locally
+### Instructions for running Flask locally
 ```shell script
   pip install -r requirements.txt
-  pip install pymysql
+  python run.py
 ```
 
 ### Instructions for Seeder
